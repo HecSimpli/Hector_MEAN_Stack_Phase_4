@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+div .contain {
+  font-family:arial, helvetica;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  background: black;
+  color: white;
+  Padding: 10px;
+  margin: 0;
+  text-align: center;
+
+}
+#container {}
+  #directions, #flashlight, #danceparty {
+    margin:4px;
+  }
+  #flashlight {
+  display: flex;
+
+  }
+  #flashlight .bigButton {
+  flex: 1 0 100px;
+  padding: 20px;
+  margin: 10px;
+  }
+  #danceparty {
+    display: flex;
+  }
+  #danceparty .bigButton {
+  flex: 1 0 100px;
+  padding: 20px;
+  margin: 10px;
+  }
+  /* ol {
+    display: inline-block;
+    margin: 0 auto;
+    text-align:left;
+  } */
+  .bigButton {
+    font-size:18px;
+  }
+/* styles for the canvas
+*/
+canvas {
+    border: 20px solid black;
+    border-radius: 360px;
+    /* Set the width and height to half the actual size so it doesn't look pixelated */
+    width: 200px;
+    height: 200px;
+    background: white(121, 42, 42);
+    margin: 0 auto;
+}
